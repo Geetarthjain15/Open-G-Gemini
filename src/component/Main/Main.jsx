@@ -10,7 +10,7 @@ const Main = () => {
   const [messages, setMessages] = useState([
     {
       sender: "ai",
-      text: "Hello Div..\nHow can I help you today?",
+      text: "Hey there! Booting up brilliance  for you",
       isCard: false,
     },
   ]);
@@ -121,7 +121,7 @@ const Main = () => {
     <div className="Main">
       <div className="nav">
         <img src={assets.gemini_icon} alt="Gemini" className="gemini-icon" />
-        <p>Gemini</p>
+        <p>Alexa</p>
         <img src={assets.user_icon} alt="User" className="user-icon" />
       </div>
 
@@ -226,7 +226,7 @@ const Main = () => {
           </div>
           <div className="bottom-info">
             <p>
-              Gemini is designed to be helpful, honest, and harmless. It can
+              Alexa is designed to be helpful, honest, and harmless. It can
               assist with a wide range of tasks, from answering questions to
               generating creative content.
             </p>
